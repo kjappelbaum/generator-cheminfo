@@ -3,7 +3,14 @@
   "version": "0.0.0",
   "description": "<%= description %>",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^13.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
+  },
   "scripts": {
     "eslint": "eslint src --ext js,jsx",
     "eslint-fix": "npm run eslint -- --fix",
@@ -31,5 +38,19 @@
   "homepage": "https://github.com/<%= org %>/<%= name %>#readme",
   "jest": {
     "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "eslint": "^7.23.0",
+    "eslint-config-cheminfo-react": "^6.2.1",
+    "eslint-plugin-hooks": "^0.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.3.3",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.23.1",
+    "postcss-cli": "^8.3.1",
+    "prettier": "^2.2.1",
+    "prop-types": "^15.7.2",
+    "tailwindcss": "^2.0.4"
   }
 }
